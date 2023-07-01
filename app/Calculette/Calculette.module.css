@@ -1,0 +1,59 @@
+.calculette {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.calculette h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.calculette input[type="text"] {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  width: 90%;
+  background-color: red;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.calculette input[type="text"]::placeholder {
+  color: #fff;
+  text-align: right;
+}
+
+.calculette input[type="button"] {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  margin: 5px;
+  border: none;
+  background-color: blue;
+  cursor: pointer;
+}
+
+.calculette .clearButton {
+  background-color: #f44336 !important;
+  color: #fff;
+}
+
+.calculette .equalButton {
+  background-color: #ff9800 !important;
+  color: #fff;
+}
+
+
+.calculette input[type="button"]:hover {
+  background-color: #dcdcdc;
+}
+
+.calculette input[type="button"]:active {
+  background-color: #ccc;
+}

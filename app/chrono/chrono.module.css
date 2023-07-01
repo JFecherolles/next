@@ -1,0 +1,42 @@
+.chrono {
+    text-align: center;
+  }
+  
+  .chrono h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .chrono p {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .chrono p span {
+    display: inline-block;
+    min-width: 30px;
+  }
+  
+  .chrono button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #f44336;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .chrono button:last-child {
+    margin-right: 0;
+  }
+  
+  .chrono button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .chrono button:active {
+    background-color: #b71c1c;
+  }
+  
